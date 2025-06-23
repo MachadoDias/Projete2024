@@ -1,13 +1,15 @@
+> 🇧🇷 [Versão em português](./README.pt.md)
+
 # 🏎️ Projete 2024 — Crazy Race
 
-Repositório dos códigos da **Projete 2024**, um jogo de corrida com carrinhos de controle remoto, desenvolvido em **C++** utilizando **ESP32**.  
-O design dos carrinhos e dos circuitos foi original, com os chassis e controles impressos em 3D e a pista construída de forma artesanal.
+Repository for the code of **Projete 2024**, a racing game using remote-controlled cars, developed in **C++** with **ESP32** microcontrollers.  
+The car and circuit designs were original, with 3D-printed chassis/controllers and a handcrafted track.
 
-> ⚠️ *Este projeto foi desenvolvido há algum tempo e pode ser otimizado.*
+> ⚠️ *This project was developed some time ago and could be optimized.*
 
 ---
 
-## 🔧 Tecnologias
+## 🔧 Technologies
 
 - **C++**
 - **ESP32**
@@ -15,44 +17,44 @@ O design dos carrinhos e dos circuitos foi original, com os chassis e controles 
 
 ---
 
-## 🧩 Principais Componentes
+## 🧩 Main Components
 
 - ESP32  
-- Driver TB6612FNG  
+- TB6612FNG motor driver  
 - Servo motor  
-- LEDs RGB  
-- LDRs
+- RGB LEDs  
+- LDR sensors
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠️ Tools Used
 
 - **IDE:** Arduino IDE  
-- **Modelagem 3D:** SolidWorks  
-- **Layout de PCB:** Autodesk EAGLE
+- **3D Modeling:** SolidWorks  
+- **PCB Layout:** Autodesk EAGLE
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
-O projeto contém quatro pastas, cada uma com um código.  
-As pastas **master** reúnem os códigos dos ESPs usados na pista, responsáveis por definir regras do jogo, intermediar a comunicação entre os controles e carrinhos, além de controlar componentes como o display.  
-As pastas **slave** reúnem os códigos dos ESPs embarcados nos carrinhos, sendo responsáveis pela movimentação e leitura dos sensores LDR.
-
----
-
-## 📸 Imagens do Projeto
-
-[Ver imagem 📷](https://github.com/user-attachments/assets/78736e8a-b401-41da-8c11-d6a13a941384)
+The project is organized into four folders, each containing a codebase.  
+The **master** folders include the ESPs used on the track. These handle game logic, communication between controllers and cars, and components like the display.  
+The **slave** folders include the ESPs used inside the cars, responsible for movement and reading LDR sensors.
 
 ---
 
-## 👨‍🏫 Projeto Acadêmico
+## 📸 Project Images
 
-### Professora orientadora:
+[View Image 📷](https://github.com/user-attachments/assets/78736e8a-b401-41da-8c11-d6a13a941384)
+
+---
+
+## 👨‍🏫 Academic Project
+
+### Advisor:
 - Ana Letícia
 
-### Integrantes:
+### Team Members:
 - [Daniel Balbino](https://github.com/Danielbalbino01)  
 - [Felipe Cunha](https://github.com/De-Bochi)  
 - [Gabriel Machado](https://github.com/MachadoDias)  
